@@ -34,7 +34,7 @@
 
     <style>
         body{
-            background-image:url(img/gym1.jpg);
+            background-image:url(img/trainer_img.webp);
             background-repeat: no-repeat;
             background-size: cover;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -64,7 +64,17 @@
            }
         
         
-      
+           .left{
+            position:absolute;
+            display: flex;
+            left:20px;
+            }
+
+        .left img{
+            width: 100px;
+            border-radius: 100px;
+            box-shadow: 2px 2px 2px rgb(255, 255, 255);
+            }
        
         .navbar li{
             display: inline-block;
@@ -72,7 +82,7 @@
             background-color: rgba(0, 0, 0, 0.582);
             margin-left:16px;
             height: 32px;
-            
+            transition: ease-in-out 0.3s;
             
            
         }
@@ -138,11 +148,16 @@
        }
 
         .table {
-           
+            transition: ease-in-out 0.3s;
             margin: 10% auto;
             padding: 1%;
             background-color: rgba(0, 0, 0, 0.582);
+            border-radius: 20px;
         }
+        table:hover{
+            box-shadow: 0 0 50px rgba(255, 0, 0, 0.724);
+        /* background-color: rgba(236, 146, 146, 0.39); */
+      }
 
         
         .td{
@@ -186,6 +201,13 @@
 </head>
 <body>
 
+       
+        <div class="left">
+          
+           <img src="img\logo_img.png" >       
+                        
+        </div>
+
 <!-- <?php
        //hear we write php coad..... 
 
@@ -208,13 +230,14 @@
     <h3>Welcome sample User</h3>
 
 <div class="header">
-    
-           <ul class="navbar">
-               <li><a href="index.html">HOME</a></li>
-               <li><a href="aboutus.html">ABOUT US</a></li>
-               <li><a href="contact.html">CONTACT US</a></li>
-               <li><a href="logout.html">LOGOUT</a></li>             
-            </ul>
+        <ul class="navbar">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="trainer.html">TRAINERS</a></li>
+            <li><a href="contact.html">APPOINTMENT</a></li>
+            <li><a href="registration.html">CONTACT US</a></li>
+            <li> <a href="login.html">LOGIN</a></li>             
+         </ul>
           
         </div>
     <table class="table">

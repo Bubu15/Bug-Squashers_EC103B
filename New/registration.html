@@ -16,6 +16,60 @@
 		padding: 5px;
 	
 	}
+	.center{
+            height:45px;
+            padding-left: 40%;
+            
+            
+        }
+        
+    
+        .navbar li{
+            display: inline-block;
+            font:18px solid;
+            background-color: rgba(0, 0, 0, 0.582);
+            margin-left:16px;
+            height: 32px;
+            transition: ease-in-out 0.3s;
+        }
+        .navbar li a{
+           
+            
+            color:#ffffff;
+            text-decoration-line: none;
+            padding:34px 20px;
+            transition:1s;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: normal;
+            text-shadow: 2px 2px 20px black;
+            
+        }
+        .navbar li:hover {
+           
+            
+           background-color:#ffffff;
+           color: #000;
+                      
+       }
+        .navbar li a:hover {
+           
+            width: 20px;
+            height: 20px;
+            /* color: black; */
+            color: #000000; 
+            text-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+            /* box-shadow: 0 20px 60px rgba(209, 29, 29, 0.1);  */
+
+        }
+		html::-webkit-scrollbar-thumb {
+        background: #f00;
+        }
+        html::-webkit-scrollbar-track {
+        background: #000;
+        }
+        html::-webkit-scrollbar {
+        width: 1rem;
+        }
 	div img{
 		margin-left: 30px;
 		width: 90px;
@@ -52,6 +106,17 @@
 	</style>
 </head>
 <body>
+	<div class="center">
+		<ul class="navbar">
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="aboutus.html">ABOUT US</a></li>
+			<li><a href="trainer.html">TRAINERS</a></li>
+			<li><a href="contact.html">APPOINTMENT</a></li>
+			<li><a href="registration.html">CONTACT US</a></li>
+			<li> <a href="login.html">LOGIN</a></li>             
+		 </ul>
+	   
+	 </div>
 	<div class="header">
 		<a href="index.html">
 		<img src="img/logo_img.jpg" alt="">

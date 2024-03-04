@@ -6,11 +6,56 @@
     <title>about us</title>
     <style>
         body{
-        background:url('img/bggml.jpg');
+        background:url('img/contactbg.jpg');
         font-family: Bradley Hand ITC;
         font-size: 20px;
         background-repeat: no-repeat;
         background-size: cover;
+        /* transition: ease-in-out 0.3s; */
+        }
+        
+        .center{
+            height:45px;
+            padding-left: 40%;
+            
+            
+        }
+        
+    
+        .navbar li{
+            display: inline-block;
+            font:18px solid;
+            background-color: rgba(0, 0, 0, 0.582);
+            margin-left:16px;
+            height: 32px;
+            transition: ease-in-out 0.3s;
+        }
+        .navbar li a{ 
+            color:#ffffff;
+            text-decoration-line: none;
+            padding:34px 20px;
+            transition:1s;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: normal;
+            text-shadow: 2px 2px 20px black;
+            
+        }
+        .navbar li:hover {
+           
+            
+           background-color:#ffffff;
+           color: #000;
+                      
+       }
+        .navbar li a:hover {
+           
+            width: 20px;
+            height: 20px;
+            /* color: black; */
+            color: #000000; 
+            text-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+            /* box-shadow: 0 20px 60px rgba(209, 29, 29, 0.1);  */
+
         }
         header{
             padding: 0px;
@@ -163,6 +208,17 @@
 <body>
     <div>
         <header class="heading">
+            <div class="center">
+                <ul class="navbar">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="trainer.html">TRAINERS</a></li>
+                    <li><a href="contact.html">APPOINTMENT</a></li>
+                    <li><a href="registration.html">CONTACT US</a></li>
+                    <li> <a href="login.html">LOGIN</a></li>             
+                 </ul>
+               
+             </div>
             <div id="nav">
                 <a href="index.html">
                     <img class="logo" src="img/logo_img.png" alt="">
@@ -173,13 +229,14 @@
                 <h1 class="head">"Let's Make Healthy Happen"<br><span>STOP WiSHiNG START DOiNG</span></h1>
                 
             </div>
+            
         </header>
         
 
         <table class="pera" >
             <tr>
                 <td class="box">
-                    <img src="img/train.jpg" class="photo"  >
+                    <img src="img/sort.jpg" class="photo"  >
                 </td>
                 <td >
                    
