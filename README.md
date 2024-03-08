@@ -99,7 +99,7 @@ Thanks goes to these wonderful people 💜
   <tr>
     <td align="center"><a href="https://github.com/arghadipmanna101"><img src="https://avatars.githubusercontent.com/u/130065095?v=4" width="100px;" alt=""/><br /><sub><b>Arghadip Manna</b></sub></a><br /><a href="#maintenance-Tlazypanda" title="Maintenance">🚧✍️🖥️</a></td>
     <td align="center"><a href="https://github.com/Bubu15"><img src="https://avatars.githubusercontent.com/u/130032692?v=4" width="100px;" alt=""/><br /><sub><b>Bubun Pal</b></sub></a><br /><a title="Code">🚧✍️💻</a></td>
-    <td align="center"><a href="https://github.com/Arpn8637"><img src="https://media.licdn.com/dms/image/D4D03AQGM2BDFglqq_w/profile-displayphoto-shrink_400_400/0/1691690845331?e=1715212800&v=beta&t=wYkjvO-rSqDc8RCH_E9iPfOfd15MqPT9oDDFTE7OM8w" width="100px;" alt=""/><br /><sub><b>Arpn Mukherjee</b></sub></a><br /><a title="Code">🚧✍️💻</a></td>
+    <td align="center"><a href="https://github.com/Arpn8637"><img src="https://avatars.githubusercontent.com/u/131811340?v=4" width="100px;" alt=""/><br /><sub><b>Arpan Mukherjee</b></sub></a><br /><a title="Code">🚧✍️💻</a></td>
     <td align="center"><a href="https://github.com/Sudipta-Giri"><img src="https://avatars.githubusercontent.com/u/156436647?v=4" width="100px;" alt=""/><br /><sub><b>Sudipta Giri</b></sub></a><br /><a title="Code">🚧✍️💻</a></td>
   </tr>
   </table>
