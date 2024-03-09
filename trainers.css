@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     width: 100vw;
     height: 100vh;
-    background-color: #191c29;
+    background:#101116;
     overflow-x:hidden;
 
 }
@@ -88,4 +88,69 @@ nav {
     .burger {
            display: flex;
         }
+}
+
+/* ================================ */
+html::-webkit-scrollbar-thumb {
+    background: #a90a0a;
+}
+
+html::-webkit-scrollbar-track {
+    background: #000;
+}
+
+html::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+/* ==================================== */
+
+.footer {
+    background-color: #0aa987;
+    color: #a90a0a;
+    padding: 3rem 0;
+    /* border: 2px solid #0aa92c; */
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
+.footer-column h3 {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 1rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #a90a0a;
+    color: white;
+    background-color: rgb(19, 12, 12);
+}
+
+.footer-bottom p {
+    font-size: 0.7rem;
 }
