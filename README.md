@@ -20,7 +20,7 @@
 
  </p>
 </div>
-Welcome to the Bug-Squashers_EC103B repository! We appreciate your interest in contributing to our Jim webpage. Whether you're a developer, designer, or content creator, your contributions are valuable in enhancing the overall quality of our platform.
+Welcome to the Bug-Squashers_EC103B repository! We appreciate your interest in contributing to our Gym webpage. Whether you're a developer, designer, or content creator, your contributions are valuable in enhancing the overall quality of our platform.
 
 <p align="center">
   <img src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Bug-Squashers_EC103B Image" width="50%" >
