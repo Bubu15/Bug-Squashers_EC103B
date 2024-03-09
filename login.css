@@ -1,5 +1,6 @@
 body {
     background: url("gynGirl.jpg");
+    font-family: Arial, sans-serif;
 }
 
 nav {
@@ -8,81 +9,83 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.1vw;
+    padding: 20px;
     font-weight: 1000;
-
+    
     background: linear-gradient(-90deg, black, transparent);
-}
-
-.logo {
+  } 
+  
+  .logo {
     font-weight: bolder;
     color: #fff;
     font-size: 2.5rem;
-}
-
-.logo span {
+  }
+  
+  .logo span {
     color: #f00;
-}
-
-
-.nav-links {
+  }
+  
+  
+  .nav-links {
     list-style-type: none;
     display: flex;
-
-}
-
-.nav-links li {
-    margin-right: 2.50vw;
-}
-
-.nav-links li a {
+    
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
     text-decoration: none;
     color: rgb(209, 209, 209);
     transition: ease-in-out 0.4s;
-}
-
-.nav-links a:hover {
-    color: #a90a0a;
-}
-
-/* ================================================ */
-.burger {
+  }
+  
+  .nav-links a:hover{
+    color:  #a90a0a;
+  }
+  
+  
+  /* ================================================ */
+  .burger {
     display: none;
     flex-direction: column;
     cursor: pointer;
-}
-
-.line1,
-.line2,
-.line3 {
-    width: 4vw;
-    height: 1.5vw;
+  }
+  
+  .line1,
+  .line2,
+  .line3 {
+    width: 25px;
+    height: 3px;
     background-color: white;
-    margin: 1.5vw;
-}
-
-@media screen and (max-width: 99vw) {
+    margin: 3px;
+  }
+  
+  @media screen and (max-width: 768px) {
     .nav-links {
-        display: none;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        position: absolute;
-        top: 60vw;
-        left: 0;
-        background-color: #333;
-        transition: all 0.5s ease;
+           display: none;
+           flex-direction: column;
+           align-items: center;
+           width: 100%;
+           position: absolute;
+           top: 60px;
+           left: 0;
+           background-color: #333;
+           transition: all 0.5s ease;
     }
-
+  
     .nav-links li {
-        margin-top: 20vw;
+           margin-top: 20px;
     }
-
+  
     .burger {
-        display: flex;
+           display: flex;
     }
-}
-
+  }
+  
+  
 .login_page {
     background-color: black;
 }
@@ -94,10 +97,11 @@ nav {
 
 .box {
     background-color: rgba(0, 0, 0, 0.556);
-    width: 20vw;
-    padding: 2vw 3vw;
+    width: 28vw;
+    height: 30vw;
+    padding: 1vw 3vw;
     position: absolute;
-    top: 50%;
+    top: 22rem;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 0.1vw solid #a90a0a;
@@ -148,6 +152,7 @@ nav {
     border-bottom: 0.2vw solid #ffffff;
     /* Change border color on hover */
 }
+
 .box input[type="submit"] {
     font-weight: bold;
     font-size: 1em;
@@ -188,3 +193,20 @@ a:hover {
 p {
     color: white;
 }
+/* ============================================ */
+html::-webkit-scrollbar-thumb {
+    background: #a90a0a;
+}
+
+html::-webkit-scrollbar-track {
+    background: #000;
+}
+
+html::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+
+
+
+/* =============================================== */
